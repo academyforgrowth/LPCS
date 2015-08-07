@@ -87,7 +87,7 @@ include 'admin/language.php';
 						<p>But where we really differ, is how we work <span class="italic">with</span> our clients and the strong emphasis we place on the <span class="bold">'relationship'</span>.</p>
 						<p>Unlike other accountants you may have met, we always put your needs ahead of our own. This means we'll always be there when you need us, ready to provide <span class="italic">imaginative</span> and <span class="italic">resourceful</span> <span class="bold">solutions</span> to your financial and business growth challenges.</p>
 						<p><span class="underline">Including those challenges you didn't even know existed.</span></p>
-						<p>After all, any decent <?php echo $general_kw_1; ?> can produce a good set of accounts. But very few have the skills to create a relationship where the client really sees their accountant as <span class="bold italic">a true asset</span> to their business.</p>
+						<p>After all, any decent <?php echo $business_3; ?> can produce a good set of accounts. But very few have the skills to create a relationship where the client really sees their accountant as <span class="bold italic">a true asset</span> to their business.</p>
 
 					</div>
 					<div class="col-md-6">

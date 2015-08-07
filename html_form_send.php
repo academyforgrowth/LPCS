@@ -106,23 +106,8 @@ include 'admin/language.php';
       <div class="container">
         
         <div class="row">
-
-          <div class="col-sm-5">
-            <div class="wts-contact-wrapper">
-              <div class="form-heading">
-                <h2>Don't forget!</h2>
-                <p>Subscribe to our FREE monthly Business Builder Newsletter...</p>
-              </div>
-              <form method="post" action="#" class="wts-form-contact">
-                <input type="text" name="email" placeholder="Email Address..." />
-                <input type="submit" name="submit" value="SUBSCRIBE NOW" />
-                <div class="data-status">
-                </div>
-              </form>
-            </div>
-          </div>
           
-          <div class="col-sm-6 col-sm-offset-1">
+          <div class="col-sm-12">
             <div class="header-text-subscribed">
               <h3><?php echo 'Thank you, ' . htmlspecialchars($_POST["first_name"]) . '!'; ?></h3>
               <p>A member of our team will be in touch shortly...</p>
@@ -139,60 +124,6 @@ include 'admin/language.php';
   <!-- Header End -->
   
   <div id="main-content">
-    
-    <!-- TOP TESTIMONIALS CONTAINER START -->
-    <?php include ("admin/snippets/top_testimonials.php"); ?>
-    <!-- TOP TESTIMONIALS CONTAINER END -->
-    
-    <div class="clearfix" style="height:40px;"></div>
-
-    <!-- CONTAINER START -->
-
-    <div class="container">
-
-      <div class="content-heading-center" id="about">
-        <h2>Not Like 'Ordinary' <?php echo $business; ?></h2>
-        <p>Clients tell us there are 3 key REASONS why they choose us…</p>
-      </div>
-
-      <!-- "WHY US" ROW START -->
-
-      <div class="row">
-        <div class="col-sm-4">
-          <div class="wts_feature">
-            <div class="feature_edge">
-            </div>
-            <img src="assets/images/services.png" alt="Services" />
-            <h4><a href="#services" class="smooth-scroll" style="text-decoration:none;">Forge Strong Relationships</a></h4>
-            <p>Getting to know you and your business is top of our agenda. This ensures we are giving you the best possible advice to save you tax, increase your profits and steer you in the right direction in both good and challenging times.</p>
-          </div>
-        </div>
-
-        <div class="col-sm-4">
-          <div class="wts_feature">
-            <div class="feature_edge">
-            </div>
-            <img src="assets/images/growthchart.png" alt="Business Growth" />
-            <h4><a href="#growth" class="smooth-scroll" style="text-decoration:none;">Grow your business</a></h4>
-            <p>You get full access to one of the world’s most successful sales and marketing programmes that has transformed the lives of thousands of business owners all over the globe. Our gift to you when you become a client.</p>
-          </div>
-        </div>
-  
-        <div class="col-sm-4">
-          <div class="wts_feature">
-            <div class="feature_edge">
-            </div>
-            <img src="assets/images/support.png" alt="Support" />
-            <h4><a href="#header" class="smooth-scroll" style="text-decoration:none;">FREE &amp; Unlimited Support</a></h4>
-            <p>All of our support is FREE and unlimited. Need a word of advice? Call us. As one of our clients, this is included in your low, fixed monthly fee. You even get direct access to the partners of the firm, whenever you need them.</p>
-          </div>
-        </div>
-
-      </div>
-
-    </div>
-
-    <!-- CONTAINER END -->
 
     <div class="clearfix" style="height:40px;"></div>
 
@@ -204,49 +135,45 @@ include 'admin/language.php';
 
     <div class="clearfix" style="height:40px;"></div>
 
-    <!-- SERVICES START -->
-
-    <?php include ("admin/snippets/services.php"); ?>
-
-    <!-- SERVICES END -->
-
     <!-- CONTAINER END -->
 
-    <div class="cleafix" style="height:40px;"></div>
+    <div class="clearfix" style="height:40px;"></div>
 
     <!-- TESTIMONIALS CONTAINER START -->
 
-    <?php include ("admin/snippets/testimonials.php"); ?>
+    <!-- Currently Removed -->
 
     <!-- TESTIMONIALS CONTAINER END -->
 
     <div class="clearfix" style="height:40px;"></div>
 
-    <div class="newsletter-subscribe-wrapper" id="subscribe">
+    <!-- OUTRO COPY START -->
+    <div class="container">
+    
+      <div class="content-heading-center" id="strong-partnership">
+        <h3><?php echo $business. ' in ' .$location; ?></h3>
+        <h2>Building A Strong Partnership With You</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <p>As you'd expect, we're really good at delivering the <?php echo $business_2; ?> stuff - like <?php echo $compliance; ?>, <?php echo $tax_saving; ?> and profit improvement services ...and all in a very cost-effective way.</p>
+            <p>But where we really differ, is how we work <span class="italic">with</span> our clients and the strong emphasis we place on the <span class="bold">'relationship'</span>.</p>
+            <p>Unlike other accountants you may have met, we always put your needs ahead of our own. This means we'll always be there when you need us, ready to provide <span class="italic">imaginative</span> and <span class="italic">resourceful</span> <span class="bold">solutions</span> to your financial and business growth challenges.</p>
+            <p><span class="underline">Including those challenges you didn't even know existed.</span></p>
+            <p>After all, any decent <?php echo $business_3; ?> can produce a good set of accounts. But very few have the skills to create a relationship where the client really sees their accountant as <span class="bold italic">a true asset</span> to their business.</p>
 
-      <!-- CONTAINER START -->
-
-      <div class="container">
-        
-        
-        <div class="content-heading-center">
-          <h2>Subscribe to our free newsletter</h2>
-          <p>Delivered to your door every month, our Business Builder Newsletter is crammed full of practical and innovative tips to help you build a better business.<br>FREE when you subscribe today.</p>
+          </div>
+          <div class="col-md-6">
+            <p>And that's because a great <?php echo $business_3; ?> is one that does <span class="italic">so much more</span> than merely provide <?php echo $business_2; ?> services.</p>
+            <p><span class="bold">A great <?php echo $business_3; ?> is one that gives your business the advantage it needs and demands.</span></p>
+            <p>And that's where we <span class="italic">really</span> make the difference</p>
+            <p>It doesn't matter whether you're just starting out, have an established business or you've been round the block a few times. We know what's required to create a <span class="bold">win-win relationship</span> for you.</p>
+            <p>You'll even get a taste of this when you meet with us the very first time. So don't delay. <a href="#header">Complete the form now</a> or call us on <?php echo $phone; ?>. Thank you.</p>
+          </div>
         </div>
       </div>
-        <div class="col-sm-1 col-xs-12 col-xs-offset-3  col-sm-offset-5 col-md-offset-5 col-md-12">
-          <form name="htmlform" method="post" action="business_builder_form.php">
-            <input type="submit" name="submit" value="SUBSCRIBE NOW" />
-          </form>
-        </div>
 
-        <div class="clearfix" style="height:40px;"></div>
-
-      
-
-      <!-- CONTAINER END -->
-      
     </div>
+    <!-- OUTRO COPY END -->
 
   </div>
 

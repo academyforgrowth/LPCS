@@ -55,11 +55,6 @@
 					echo '';
 				}
 
-				if ($address4 == true) {
-					echo '<p class="address_multiple">'.$company_name.', '.$address_4.'</p>';
-				} else {
-					echo '';
-				}
 			 ?>
 
 

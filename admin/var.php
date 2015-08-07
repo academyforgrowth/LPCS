@@ -147,10 +147,11 @@ $assoc_logo = array (
 
 $address2 = false; // Set to true to activate second address in footer.
 $address_2 = "Suites 1-10, Springfield House, Water Lane, Wilmslow, SK9 5BG";
+$location2 = "";
 $address3 = false; // Set to true to activate third address in footer.
 $address_3 = "Suites 1-10, Springfield House, Water Lane, Wilmslow, SK9 5BG";
-$address4 = false; // Set to true to activate fourth address in footer.
-$address_4 = "Suites 1-10, Springfield House, Water Lane, Wilmslow, SK9 5BG";
+$location3 = "";
+
 
 $phone2 = false; // Set to true to activate second phone number on site.
 $phone_2 = "0123 456 789";

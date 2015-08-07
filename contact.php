@@ -78,36 +78,9 @@ include 'admin/language.php';
 
 			<!-- "CONTACT" ROW START -->
 
-			<div class="row">
+			<?php include ("admin/snippets/contact_page_locations.php"); ?>
 
-				<div class="col-sm-12 contact-container">
-					<div class="row">
-						<div class="col-sm-6 location-map-title">
-							<p><?php echo $location; ?></p>
-						</div>
-						<div class="col-sm-6"></div>
-					</div>
-					<div class="col-sm-6">
-						<div class="google-maps">
-							<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4751.992755370819!2d-2.2284120000000005!3d53.450651!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487bb2241bf23f11%3A0x9c667df74ac2d39c!2sManchester+M14+5NJ%2C+UK!5e0!3m2!1sen!2suk!4v1435752958350" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-						</div>
-					</div>
-					<div class="col-sm-6">
-						<div class="contact-info">
-							<p><span><?php echo $company_name; ?></span></p>
-							<p>Address:</p>
-							<address>
-								<?php echo $address; ?>
-							</address>
-							<p>Phone:</p>
-							<p><span><?php echo $phone; ?></span></p>
-							<p>E-mail:</p>
-							<p><span><?php echo $email; ?></span></p>
-						</div>
-					</div>
-				</div>
-
-			</div>
+			<!-- "CONTACT" ROW END -->
 
 		</div>
 
@@ -127,7 +100,7 @@ include 'admin/language.php';
 						<p>But where we really differ, is how we work <span class="italic">with</span> our clients and the strong emphasis we place on the <span class="bold">'relationship'</span>.</p>
 						<p>Unlike other accountants you may have met, we always put your needs ahead of our own. This means we'll always be there when you need us, ready to provide <span class="italic">imaginative</span> and <span class="italic">resourceful</span> <span class="bold">solutions</span> to your financial and business growth challenges.</p>
 						<p><span class="underline">Including those challenges you didn't even know existed.</span></p>
-						<p>After all, any decent <?php echo $general_kw_1; ?> can produce a good set of accounts. But very few have the skills to create a relationship where the client really sees their accountant as <span class="bold italic">a true asset</span> to their business.</p>
+						<p>After all, any decent <?php echo $business_3; ?> can produce a good set of accounts. But very few have the skills to create a relationship where the client really sees their accountant as <span class="bold italic">a true asset</span> to their business.</p>
 
 					</div>
 					<div class="col-md-6">
