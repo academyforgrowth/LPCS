@@ -1,0 +1,58 @@
+/*==============CUSTOM.CSS==============*/
+/*=======================================
+
+		CUSTOMISE COLOURS BELOW
+
+
+=========================================*/
+/*=======================================*/
+
+/* Main Background Colour above the fold */
+
+header {
+	background:#3e3e3e;
+}
+
+/*=======================================*/
+/*=======================================*/
+
+/* Header Text Colours */
+
+.header-text-video-version {
+	color: #c9c9c9;
+}
+
+.header-text-video-version h1 {
+	color:#FFF;
+}
+
+.header-text-video-version h3 {
+	color:#FFF;
+}
+
+/*=======================================*/
+/*=======================================*/
+
+/* Contact Form Background, Border, Headline & Text */
+
+.wts-contact-wrapper {
+	color:#a9a9a9; /* Small Text on Contact Form*/
+	background-color:#f4f4f4; /* Background of Contact Form */
+	border:6px solid #FFF;	/* Border of Contact Form */
+}
+
+
+
+.wts-contact-wrapper h2 {
+	color:#303030; /* Headline of Contact Form */
+}
+
+.subscribe-contact-wrapper {
+	color:#a9a9a9; /* Small Text on Contact Form*/
+	background-color:#f4f4f4; /* Background of Contact Form */
+	border:6px solid #FFF;	/* Border of Contact Form */
+
+}
+
+/*=======================================*/
+/*=======================================*/

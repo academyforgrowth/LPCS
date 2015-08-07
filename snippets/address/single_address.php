@@ -1,0 +1,1 @@
+			<p><?php echo $company_name; ?>, <?php echo $address; ?></p>
