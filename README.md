@@ -1,9 +1,9 @@
-# ATC_L1
+# LPCS - Landing Page Conversion System
 
-This documentation is for the ATC_L1 (AGP Traffic Converter Landing Page Design 1) Repository
+This documentation is for the LPCS (Landing Page Conversion System) Repository
 
 ----
-NOTE: Any changes to the var.php, once approved and merged to the master repository must be applied to the ATC_L1 snippets in Gist - and be re-saved in Sublime Text.
+NOTE: Any changes to the var.php, once approved and merged to the master repository must be applied to the LPCS snippets in Gist - and be re-saved in Sublime Text.
 
 ## Installation
 
@@ -17,7 +17,7 @@ Customisation & Setup TBA
 
 ## Usage
 
-The ATC_L1 is an exclusive landing site (comprised of a number of 'Google Adwords' keyword related landing pages). The site is set up and provided by Academy For Growth Ltd upon purchase.
+The LPCS is an exclusive landing page that utilises dynamic headline insertion through 'Google Adwords'. The page comes along with several additional pages, for additional benefits with Google's 'Quality Score'. The LPCS is currently set up and provided by Academy For Growth Ltd upon purchase.
 
 ## Contributing
 
