@@ -67,6 +67,8 @@ $fax_1 = "0123 456 789";
 
 $address = "Suites 1-10, Springfield House, Water Lane, Wilmslow, SK9 5BG";
 
+$location = "Wilmslow"; // Displays in Headline on ALL pages EXCEPT index.php
+
 $country = "England";
 
 $reg = "#00000000";
@@ -179,50 +181,6 @@ $fax3 = false; // Set to true to activate fax number on site.
 $fax_3 = "0123 456 789";
 $fax4 = false; // Set to true to activate fax number on site.
 $fax_4 = "0123 456 789";
-
-/******************************
- ** 8. =General Keywords
- ******************************/
-
-// General Keywords 1-8 reflect the duplicated copies of index.php with the same name.
-// Examples can be:
-// accounting company
-// accounting firm
-// accounting practice
-// accounting services
-// management accountant
-
-$general_kw_1 = "accountant"; // e.g. "Any decent <accountant> can produce a good set of...."
-$general_kw_2 = "acounting company";
-$general_kw_3 = "accounting firm";
-$general_kw_4 = "accounting practice";
-$general_kw_5 = "accounting services";
-$general_kw_6 = "management accountant";
-$general_kw_7 = "";
-$general_kw_8 = "";
-
-// General Keywords 9-10 reflect the duplicated copies of index.php with the same name.
-// Examples can be:
-// looking for different business tax advice?
-$general_kw_9 = "looking for different business tax advice?";
-$general_kw_10 = "";
-
-
-
-/******************************
- ** 9. =Location Keywords
- ******************************/
-
-$location = "Wilmslow"; // Displays on index.php INCLUDING the duplicated copy of index.php with the same name.
-$location2 = "";
-$location3 = "";
-$location4 = "";
-$location5 = "";
-$location6 = "";
-$location7 = "";
-$location8 = "";
-$location9 = "";
-$location10 = "";
 
 
  ?>
