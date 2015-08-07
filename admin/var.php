@@ -10,8 +10,6 @@
 // 5. =Swarm
 // 6. =Association Logo Links
 // 7. =Multiple Locations
-// 8. =General Keywords
-// 9. =Location Keywords
 
 
 
@@ -19,9 +17,8 @@
  ** 0. =Misc
  ******************************/
 
-// This section is for CURRENCY, COMPLIANCE & CHANGES TO THE NAV BAR.
+// This section is for CURRENCY & COMPLIANCE CHANGES IF REQUIRED.
 // 
-// NOT TO BE CONFUSED WITH GENERAL KEYWORDS.
 // $business variables are changed ONLY for compliance reasons.
 
 // Currency (e.g. $, £, €, AED).
@@ -38,19 +35,6 @@ $business = "Accountants"; // start with capital letter (Can change to "Bookkeep
 $business_2 = "accounting"; // lowercase (Can change to "bookkeeping".)
 $business_3 = "accountant"; // lowercase (Can change to "bookkeeper".)
 
-// Nav Bar (Remove via "Commenting Out" if Member does NOT have testimonials/team section etc.)
-
-$nav_menu = array (
-
-'Home' => 'index.php',
-'Why Us?' => '#about',
-'Our Team' => '#team',
-'Services' => '#services',
-'Grow Your Business' => 'business-growth.php',
-'Testimonials' => 'testimonials.php',
-'Contact' => 'contact.php',
-
-);
 
 /******************************
  ** 1. =Contact
@@ -129,7 +113,7 @@ $testimonial6 = "Voluptatem quia voluptas sit aspernatur aut odit aut fugit quia
  ** 5. =Swarm
  ******************************/
 
-// LEAVE SET AS 'FALSE' UNLESS TESTING JUSTIFIES IT.
+// LEAVE SET AS 'FALSE' UNLESS THIS HAS BEEN APPROVED THROUGH TESTING RESULTS.
 
 $social = false; // Set to false for no social media.
 

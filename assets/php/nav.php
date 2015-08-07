@@ -1,3 +1,28 @@
+<!-- USER NOTES:
+
+THIS FILE IS SPLIT INTO TWO HALVES. THE TOP HALF (ARRAY) IS SUPPOSED TO GO IN VAR.PHP,
+BUT IS NOW STORED IN HERE AS THE SITE CURRENTLY DOES NOT UTILISE A NAV. -->
+
+<!-- ARRAY START -->
+
+<!-- // Nav Bar (Remove via "Commenting Out" if Member does NOT have testimonials/team section etc.)
+
+$nav_menu = array (
+
+'Home' => 'index.php',
+'Why Us?' => '#about',
+'Our Team' => '#team',
+'Services' => '#services',
+'Grow Your Business' => 'business-growth.php',
+'Testimonials' => 'testimonials.php',
+'Contact' => 'contact.php',
+
+); -->
+
+<!-- ARRAY END -->
+
+
+
 <!-- 	<nav class="navbar navbar-default" id="navigation" role="navigation">
 		<div class="container">
 			
@@ -58,4 +83,4 @@
 			</div>
 
 		</div>
-	</nav> -->
+	</nav>
