@@ -32,7 +32,7 @@ include 'admin/language.php';
 
 					<div class="col-sm-6">
 						<div class="header-text-video-version">
-							<h3><?php echo $business; ?> in <?php echo $location; ?></h3>
+							<h3><?php include ("assets/php/headline.php"); ?></h3>
 							<h1>How To Grow Your Business,<br>Save Tax &amp; Increase Profits</h1>
 							
 							<div class="video_container">
