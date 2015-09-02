@@ -25,10 +25,18 @@ header {
 .header-text-video-version h1 {
 	color:#FFF;
 }
-
+.header-text-video-version h2 {
+	color:#FFF;
+}
 .header-text-video-version h3 {
 	color:#FFF;
 }
+.header-text-video-version h4 {
+	color:#FFF;
+	text-transform: uppercase;
+}
+
+
 
 /*=======================================*/
 /*=======================================*/

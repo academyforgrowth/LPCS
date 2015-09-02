@@ -67,30 +67,49 @@ include 'admin/language.php';
 	<!-- Header End -->
 	
 	<div id="main-content">
-		
-		<!-- CONTAINER START -->
 
+		<div class="clearfix" style="height:40px;"></div>
+
+		<!-- SERVICES COPY START -->
 		<div class="container">
+		
+			<div class="content-heading-center" id="strong-partnership">
+				<h3 style="text-transform:capitalize; font-weight:bold">Choosing A New <?php echo $business_3; ?></h3>
+				<br><br>
+				<div class="row">
+					<div class="col-md-12">
+						<p>So you’re looking for a new <?php echo $business_3 ?>.</p>
+						<p>But how do you choose the right one?</p>
+						<p>You see, many of the business owners WE work with, have told us of the problems they experienced with their previous advisors… poor quality of work, unresponsive service, bad advice, poor or even zero communication, unexpected charges, general apathy, disinterest and simply not being proactive enough.</p>
+						<p>And we know from these conversations that one of the main reasons they chose us was because of our simple promise and guarantee...</p>
+						<p style="font-weight:bold; margin-bottom:5px">Our promise is...</p>
+						
+						<ul class="tbl-srv-list">
+							<li>First, all our work is always done to high professional standards and undergoes rigorous checking and review.</li>
+							<li>Second, we guarantee to respond to all of your phone calls and emails in a prompt and timely manner.</li>
+							<li>Third, our advice is always honest, professional and in your best interests. We don’t give bad advice.</li>
+							<li>Fourth, we will always notify you of anything we think is of interest to your business or circumstances.</li>
+							<li>Fifth all of our fees are quoted and agreed in advance. There will never be any unexpected charges.</li>
+							<li>And last, as for general apathy, disinterest and not being proactive enough, our clients ARE our business. Without happy clients we don’t have a business, therefore our focus is always on you… 100%.</li>
+						</ul>
 
-			<div class="content-heading-center" id="about">
-				<h2>Contact Us</h2>
-				<h4>Our Locations</h4>
+						<p style="font-weight:bold">Our guarantee is…</p>
+						<p>If at any time during our relationship you think we have failed to live up to these high standards, then YOU decide the fee – it’s as simple as that. YOU’RE in full control. No risk. No surprises.</p>
+						<p>So if you want an accountant who can play an active role to ensure you run a better, more efficient and effective business… then we’d like to help.</p>
+						<p>We’d be delighted to put some time aside to meet with you. Just call us on <?php echo $phone; ?> or <a href="choosing-a-new-accountant.php">complete the form here</a> and we can arrange your <span style="font-weight:bold">FREE no obligation meeting</span> at YOUR convenience.</p>
+						<p>Thank you.</p>
+					</div>
+				</div>
 			</div>
 
-			<!-- "CONTACT" ROW START -->
-
-			<?php include ("admin/snippets/contact_page_locations.php"); ?>
-
-			<!-- "CONTACT" ROW END -->
-
 		</div>
-
-		<!-- CONTAINER END -->
+		<!-- SERVICES COPY END -->
 		
-		<div class="clearfix" style="height:80px;"></div>
+
+		<div class="clearfix" style="height:40px;"></div>
 
 		<!-- OUTRO COPY START -->
-		<div class="container">
+		<!-- <div class="container">
 		
 			<div class="content-heading-center" id="strong-partnership">
 				<h3><?php echo $business. ' in ' .$location; ?></h3>
@@ -114,7 +133,7 @@ include 'admin/language.php';
 				</div>
 			</div>
 
-		</div>
+		</div> -->
 		<!-- OUTRO COPY END -->
 
 	</div>

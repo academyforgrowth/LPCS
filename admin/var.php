@@ -83,9 +83,9 @@ $team_member6_title = "Job Title";
  ** 3. =Services
  ******************************/
 
-$compliance_services = ["Personal Tax Returns", "Income Statements", "Company Tax Returns", "Financial Statements", "Tax Planning"];
+$time_saving_services = ["Personal Tax Returns", "Income Statements", "Company Tax Returns", "Financial Statements", "Tax Planning"];
 
-$time_saving = ["Expenses Management", "Budgeting", "Client Invoicing", "Accounts Receivable Service", "Business Management Consulting"];
+$value_added_services = ["Expenses Management", "Budgeting", "Client Invoicing", "Accounts Receivable Service", "Business Management Consulting"];
 
 /******************************
  ** 4. =Testimonials
@@ -151,7 +151,6 @@ $location2 = "";
 $address3 = false; // Set to true to activate third address in footer.
 $address_3 = "Suites 1-10, Springfield House, Water Lane, Wilmslow, SK9 5BG";
 $location3 = "";
-
 
 $phone2 = false; // Set to true to activate second phone number on site.
 $phone_2 = "0123 456 789";

@@ -32,13 +32,14 @@ include 'admin/language.php';
 
 					<div class="col-sm-6">
 						<div class="header-text-video-version">
-							<h3><?php echo $business; ?> in <?php echo $location; ?></h3>
-							<h1>How To Grow Your Business,<br>Save Tax &amp; Increase Profits</h1>
+							<h1>Watch This 2 Minute Video Before You Speak To Another <?php echo $business_3; ?>...</h1>
+							<h2>“How To Avoid Choosing The Wrong Accountant”</h2>
+							<h3 class="sub-headline">The Simple Strategy Any Small Business Owner Can Use To Find The Accountant That’s Right For Them</h3>
 							
 							<div class="video_container">
 								<?php include ("admin/snippets/video.php"); ?>
 							</div>
-							<h3><span>Call us now at <?php echo $phone; ?></span></h3>	
+							<h4><span>Call us now at <?php echo $phone; ?></span></h4>	
 						</div>
 					</div>
 
@@ -73,11 +74,41 @@ include 'admin/language.php';
 		<div class="container">
 		
 			<div class="content-heading-center" id="strong-partnership">
-				<h3>Services Keyword Headline Can Go Here</h3>
-				<h2>Services Headline Needs To Go Here</h2>
+				<h3>Time-Saving &amp; Value Added <?php echo $business_2; ?> Services</h3>
+				<br><br>
 				<div class="row">
 					<div class="col-md-12">
-						<p>Services Copy Needs To Go Here...</p>
+						<p style="font-weight:bold; text-decoration:underline">Time-Saving <span style="text-transform:capitalize"><?php echo $business_2; ?></span> Services</p>
+						<p>Our Time-Saving <?php echo $business_2; ?> services are the things we can do to make your life easier.</p>
+						<p>Why waste your valuable time and resources on office chores when we can take care of the whole thing for you – properly, efficiently and effectively.</p>
+						<p style="margin-bottom:5px">These <?php echo $business_2; ?> services include:</p>
+						
+						<ul class="tbl-srv-list">
+							<!-- SERVICES PHP INCLUDE START -->
+							<?php foreach($time_saving_services as $name) : ?>
+							<li><?php echo $name; ?></li>
+							<?php endforeach; ?>
+							<!-- SERVICES PHP INCLUDE END -->
+						</ul>
+
+						<p>We agree a bundle of Time-Saving <?php echo $business_2; ?> services that meets your budget and needs and then take all that distraction away from you, allowing you and your team to get on with building your business.</p>
+						<p>Of course no matter which services you choose, we always agree a fixed fee with you.</p>
+						<br>
+						<p style="font-weight:bold; text-decoration:underline">Value Added <span style="text-transform:capitalize"><?php echo $business_2; ?></span> Services</p>
+						<p>Our value added <?php echo $business_2; ?> services are focussed on making sure you earn more money and keep more of that money for you, your family and your lifestyle... whatever the size of your business or wallet.</p>
+						<p style="margin-bottom:5px">They are designed to suit every client, in every circumstance.  We currently provide the following Value-Added <?php echo $business_2; ?> services...</p>
+
+						<ul class="tbl-srv-list">
+							<!-- SERVICES PHP INCLUDE START -->
+							<?php foreach($value_added_services as $name) : ?>
+							<li><?php echo $name; ?></li>
+							<?php endforeach; ?>
+							<!-- SERVICES PHP INCLUDE END -->
+						</ul>
+
+						<p>Again, all to an agreed, fixed fee.</p>
+						<p>So go ahead. Request your <span style="font-weight:bold;">FREE no obligation meeting</span> today. If you’re still undecided, <a href="services.php">watch this video first</a> and then enter your details in the form on the right of the page, or call us direct on <?php echo $phone; ?>.</p>
+
 					</div>
 				</div>
 			</div>

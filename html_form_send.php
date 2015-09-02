@@ -129,7 +129,7 @@ include 'admin/language.php';
 
     <!-- TEAM CONTAINER START -->
 
-    <?php include ("admin/snippets/team.php"); ?>
+    <!--<?php include ("admin/snippets/team.php"); ?>-->
     
     <!-- TEAM CONTAINER END -->
 

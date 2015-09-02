@@ -66,6 +66,7 @@
 			<div class="row">
 				<ul class="policy_links">
 					<li><a href="index.php">Home</a></li>
+					<li><a href="choosing-a-new-accountant.php">Choosing A New Accountant</a></li>
 					<li><a href="about.php">About</a></li>
 					<li><a href="services.php">Services</a></li>
 					<li><a href="contact.php">Contact</a></li>

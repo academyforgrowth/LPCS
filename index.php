@@ -32,13 +32,14 @@ include 'admin/language.php';
 
 					<div class="col-sm-6">
 						<div class="header-text-video-version">
-							<h3><?php include ("assets/php/headline.php"); ?></h3>
-							<h1>How To Grow Your Business,<br>Save Tax &amp; Increase Profits</h1>
+							<h1><?php include ("assets/php/headline.php"); ?></h1>
+							<h2>“How To Avoid Choosing The Wrong <?php echo $business_3; ?>”</h2>
+							<h3 class="sub-headline">The Simple Strategy Any Small Business Owner Can Use To Find The Accountant That’s Right For Them</h3>
 							
 							<div class="video_container">
 								<?php include ("admin/snippets/video.php"); ?>
 							</div>
-							<h3><span>Call us now at <?php echo $phone; ?></span></h3>	
+							<h4><span>Call us now at <?php echo $phone; ?></span></h4>	
 						</div>
 					</div>
 

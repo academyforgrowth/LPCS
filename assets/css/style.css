@@ -580,19 +580,18 @@ figure .figure-hover div .icon-hover .icon-hover-zoom {
 	font-weight:400;
 	margin-bottom:0;
 }
-			
-.tbl-services .tbl-srv-row .tbl-srv-col .tbl-srv-list {
+
+.tbl-srv-list {
 	color:#404040;
 	padding:15px 0;
 	margin-bottom:0;
-	border-bottom:1px solid #d9d9d9;
 }
 				
-.tbl-services .tbl-srv-row .tbl-srv-col .tbl-srv-list li {
-	list-style-type:none;
-	overflow:hidden;
-	text-align:center;
-	padding:10px 0 10px 40px;
+.tbl-srv-list li {
+	overflow:visible;
+	text-align:left;
+	padding:10px 0 10px 20px;
+	margin: 0 0 0 25px;
 }
 					
 .tbl-services .tbl-srv-row .tbl-srv-col .tbl-srv-list li .fa {
@@ -792,7 +791,7 @@ header {
 	margin-bottom:40px;
 }
 
-.header-text-subscribed h3 {
+.header-text-subscribed h2 {
 	font-family:Raleway, Arial, sans-serif;
 	color:#FFF;
 	font-size:30px;
@@ -813,7 +812,7 @@ header {
 	text-align: center;
 }
 
-.header-text-video-version h1 {
+.header-text-video-version h2 {
 	/* Colour located in custom.css */
 	font-size:34px;
 	line-height:46px;
@@ -822,13 +821,13 @@ header {
 	margin-bottom:20px;
 }
 
-.header-text-video-version h3 {
+.header-text-video-version h1 {
 	font-family:Raleway, Arial, sans-serif;
 	/* Colour located in custom.css */
-	font-size:25px;
-	line-height:34px;
-	text-transform:uppercase;
-	margin-bottom:15px;
+	font-size:15px;
+	line-height:20px;
+	text-transform:capitalize;
+	margin-bottom:0px;
 }
 
 .header-text-video-version-subscribed {
@@ -847,7 +846,7 @@ header {
 	margin-bottom:40px;
 }
 
-.header-text-video-version-subscribed h3 {
+.header-text-video-version-subscribed h2 {
 	font-family:Raleway, Arial, sans-serif;
 	color:#FFF;
 	font-size:30px;
@@ -864,6 +863,14 @@ header {
 .video_container {
 	margin-bottom: 20px;
 
+}
+
+.sub-headline {
+	color: #FFF;
+	font-family: Raleway, Arial, sans-serif;
+	font-size: 15px;
+	line-height: 20px;
+	margin-top:5px;
 }
 
 /**
@@ -1105,31 +1112,32 @@ header {
 **/
 
 @media all and (min-width: 768px) and (max-width: 1200px) {
-	.header-text-video-version h1 {
+	.header-text-video-version h2 {
 		/* Colour located in custom.css */
 		font-size: 24px;
 		line-height:36px;
-		text-transform:uppercase;
+		text-transform:capitalize;
 		font-weight:700;
-		margin-bottom:20px;
+		margin-bottom:0px;
 	}
 
 }
 
 @media all and (min-width: 1200px) {
-	.header-text-video-version h1 {
+	.header-text-video-version h2 {
 	/* Colour located in custom.css */
 	font-size:34px;
-	line-height:46px;
-	text-transform:uppercase;
+	line-height:36px;
+	text-transform:capitalize;
 	font-weight:700;
-	margin-bottom:20px;
+	margin-top:5px;
+	margin-bottom:0px;
 }
 
 }
 
 @media all and (min-width: 768px) and (max-width: 1200px) {
-	.header-text-video-version h3 {
+	.header-text-video-version h1 {
 		font-family:Raleway, Arial, sans-serif;
 		/* Colour located in custom.css */
 		font-size:20px;
