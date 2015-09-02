@@ -1,15 +1,27 @@
 <?php 
 
-// TABLE OF CONTENTS
+// --------------------------------------- CHECKLIST --------------------------------------
+// 
+// * Update Video (admin/snippets/video.php)
+// * Update Company Logo (admin/img/logo.png)
+// * Update Team Images when arriving at Team Section (see below)
+// * Update Assoc Logos when arriving at Assoc Logo Section (see below)
+// * Update Custom CSS to match company logo colours (admin/custom.css)
+// * Update Language to match correct spelling (admin/language.php)
+// * Update Analytics Code once received (admin/snippets/analytics.php)
+// * Update Remarketing Code once received (admin/snippets/remarketing.php)
+// * Update Conversion Tracking Code once received (admin/snippets/conversion-tracking.php)
+
+// -----------------------------------------------------------------------------------------
+
+// ----------------------------------- TABLE OF CONTENTS -----------------------------------
 // 
 // 0. =Misc
 // 1. =Contact
 // 2. =Team
 // 3. =Services
-// 4. =Testimonials
-// 5. =Swarm
-// 6. =Association Logo Links
-// 7. =Multiple Locations
+// 4. =Association Logo Links
+// 5. =Multiple Locations
 
 
 
@@ -21,15 +33,9 @@
 // 
 // $business variables are changed ONLY for compliance reasons.
 
-// Currency (e.g. $, £, €, AED).
+// Currency (e.g. $, £, €, AED, etc).
 
 $currency = "£";
-
-// Compliance & Business Variables (e.g. Accountants/Bookkeepers Compliance/Advisory etc.)
-
-$compliance = "compliance"; // (Can change to "advisory" for members that don't offer compliance services.)
-$tax_saving = "tax saving"; // (DO NOT LEAVE BLANK. If necessary, change "tax saving" to "time saving")
-$save_tax = "save tax &amp; "; // TURN BLANK If no tax saving.
 
 $business = "Accountants"; // start with capital letter (Can change to "Bookkeepers".)
 $business_2 = "accounting"; // lowercase (Can change to "bookkeeping".)
@@ -42,7 +48,7 @@ $business_3 = "accountant"; // lowercase (Can change to "bookkeeper".)
 
 $company_name = "Company Name";
 
-$email = "afton.rhodes@academyforgrowth.co.uk";
+$email = "afton.rhodes@academyforgrowth.co.uk"; // displayed in footer + form submissions go here.
 
 $phone = "0123 456 789";
 
@@ -51,7 +57,7 @@ $fax_1 = "0123 456 789";
 
 $address = "Suites 1-10, Springfield House, Water Lane, Wilmslow, SK9 5BG";
 
-$location = "Wilmslow"; // Displays in Headline on ALL pages EXCEPT index.php
+$location = "Wilmslow";
 
 $country = "England";
 
@@ -61,22 +67,25 @@ $reg = "#00000000";
  ** 2. =Team
  ******************************/
 
-$team_member1 = "Darren Smith";
+// Remember to edit team snippets if required (admin/snippets/team.php) with our bank of snippets (snippets/team/).
+// Upload team photos (if permission has been granted on form) to (admin/img/team/) and rename files numerically.
+
+$team_member1 = "Name";
 $team_member1_title = "Job Title";
 
-$team_member2 = "Alison Smith";
+$team_member2 = "Name";
 $team_member2_title = "Job Title";
 
-$team_member3 = "Puran Smith";
+$team_member3 = "Name";
 $team_member3_title = "Job Title";
 
-$team_member4 = "Anna Smith";
+$team_member4 = "Name";
 $team_member4_title = "Job Title";
 
-$team_member5 = "Patrick Smith";
+$team_member5 = "Name";
 $team_member5_title = "Job Title";
 
-$team_member6 = "Sarah Smith";
+$team_member6 = "Name";
 $team_member6_title = "Job Title";
 
 /******************************
@@ -88,42 +97,7 @@ $time_saving_services = ["Personal Tax Returns", "Income Statements", "Company T
 $value_added_services = ["Expenses Management", "Budgeting", "Client Invoicing", "Accounts Receivable Service", "Business Management Consulting"];
 
 /******************************
- ** 4. =Testimonials
- ******************************/
-
-$testimonial_client1 = "John Doe &ndash; company.com";
-$testimonial1 = "Voluptatem quia voluptas sit aspernatur aut odit aut fugit quia consequuntur magni. Perspiciatis unde omnis iste natus error morbi voluptatem dolores eos qui ratione voluptatem nesciunt.";
-
-$testimonial_client2 = "John Doe &ndash; company.com";
-$testimonial2 = "Voluptatem quia voluptas sit aspernatur aut odit aut fugit quia consequuntur magni. Perspiciatis unde omnis iste natus error morbi voluptatem dolores eos qui ratione voluptatem nesciunt.";
-
-$testimonial_client3 = "John Doe &ndash; company.com";
-$testimonial3 = "Voluptatem quia voluptas sit aspernatur aut odit aut fugit quia consequuntur magni. Perspiciatis unde omnis iste natus error morbi voluptatem dolores eos qui ratione voluptatem nesciunt.";
-
-$testimonial_client4 = "John Doe &ndash; company.com";
-$testimonial4 = "Voluptatem quia voluptas sit aspernatur aut odit aut fugit quia consequuntur magni. Perspiciatis unde omnis iste natus error morbi voluptatem dolores eos qui ratione voluptatem nesciunt.";
-
-$testimonial_client5 = "John Doe &ndash; company.com";
-$testimonial5 = "Voluptatem quia voluptas sit aspernatur aut odit aut fugit quia consequuntur magni. Perspiciatis unde omnis iste natus error morbi voluptatem dolores eos qui ratione voluptatem nesciunt.";
-
-$testimonial_client6 = "John Doe &ndash; company.com";
-$testimonial6 = "Voluptatem quia voluptas sit aspernatur aut odit aut fugit quia consequuntur magni. Perspiciatis unde omnis iste natus error morbi voluptatem dolores eos qui ratione voluptatem nesciunt.";
-
-/******************************
- ** 5. =Swarm
- ******************************/
-
-// LEAVE SET AS 'FALSE' UNLESS THIS HAS BEEN APPROVED THROUGH TESTING RESULTS.
-
-$social = false; // Set to false for no social media.
-
-$twitter = 'http://www.twitter.com';
-$linkedin = 'http://www.linkedin.com';
-$googleplus = 'http://www.plus.google.com';
-$facebook = 'http://www.facebook.com';
-
-/******************************
- ** 6. =Assocation Logo Links
+ ** 4. =Assocation Logo Links
  ******************************/
 
 // 'COMMENT OUT' ANY UNREQUIRED ASSOC LOGOS IN THE ARRAY BELOW.
@@ -142,10 +116,10 @@ $assoc_logo = array (
 );
 
 /******************************
- ** 7. =Multiple Locations
+ ** 5. =Multiple Locations
  ******************************/
 
-$address2 = false; // Set to true to activate second address in footer.
+$address2 = false; // Set to true to activate second address in footer. Don't forget phone_2 & location2.
 $address_2 = "Suites 1-10, Springfield House, Water Lane, Wilmslow, SK9 5BG";
 $location2 = "";
 $address3 = false; // Set to true to activate third address in footer.

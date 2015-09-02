@@ -28,7 +28,7 @@
 
 			<!-- SOCIAL MEDIA AREA START -->
 
-			<?php include ("admin/snippets/social.php"); ?>
+			<!--<?php include ("admin/snippets/social.php"); ?>-->
 
 			<!-- SOCIAL MEDIA AREA END -->
 			
