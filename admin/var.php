@@ -42,7 +42,7 @@ $business_3 = "accountant"; // lowercase (Can change to "bookkeeper".)
 
 $company_name = "Company Name";
 
-$email = "support@academyforgrowth.co.uk";
+$email = "afton.rhodes@academyforgrowth.co.uk";
 
 $phone = "0123 456 789";
 

@@ -1,3 +1,5 @@
+		<div class="clearfix" style="height:40px;"></div>
+		
 		<div class="container">
 
 			<div class="content-heading-center" id="team">
@@ -102,3 +104,5 @@
 			<!-- TEAM PHOTO SECOND ROW END -->
 
 		</div>
+
+		<div class="clearfix" style="height:40px;"></div>

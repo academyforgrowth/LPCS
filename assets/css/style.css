@@ -867,6 +867,7 @@ header {
 
 .sub-headline {
 	color: #FFF;
+	text-transform: capitalize;
 	font-family: Raleway, Arial, sans-serif;
 	font-size: 15px;
 	line-height: 20px;

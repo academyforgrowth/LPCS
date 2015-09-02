@@ -34,7 +34,7 @@ include 'admin/language.php';
 						<div class="header-text-video-version">
 							<h1><?php include ("assets/php/headline.php"); ?></h1>
 							<h2>“How To Avoid Choosing The Wrong <?php echo $business_3; ?>”</h2>
-							<h3 class="sub-headline">The Simple Strategy Any Small Business Owner Can Use To Find The Accountant That’s Right For Them</h3>
+							<h3 class="sub-headline">The Simple Strategy Any Small Business Owner Can Use To Find The <?php echo $business_3; ?> That’s Right For Them</h3>
 							
 							<div class="video_container">
 								<?php include ("admin/snippets/video.php"); ?>
@@ -68,19 +68,11 @@ include 'admin/language.php';
 	
 	<div id="main-content">
 
-		<div class="clearfix" style="height:40px;"></div>
-
 		<!-- TEAM CONTAINER START -->
 
 		<?php include ("admin/snippets/team.php"); ?>
 		
 		<!-- TEAM CONTAINER END -->
-
-		<div class="clearfix" style="height:40px;"></div>
-
-		<!-- CONTAINER END -->
-
-		<div class="clearfix" style="height:40px;"></div>
 
 		<!-- TESTIMONIALS CONTAINER START -->
 
@@ -94,7 +86,7 @@ include 'admin/language.php';
 		<div class="container">
 		
 			<div class="content-heading-center" id="strong-partnership">
-				<h3><?php echo $business. ' in ' .$location; ?></h3>
+				<h3><?php echo $headline_var_clean; ?></h3>
 				<h2>Building A Strong Partnership With You</h2>
 				<div class="row">
 					<div class="col-md-6">
@@ -102,7 +94,7 @@ include 'admin/language.php';
 						<p>But where we really differ, is how we work <span class="italic">with</span> our clients and the strong emphasis we place on the <span class="bold">'relationship'</span>.</p>
 						<p>Unlike other accountants you may have met, we always put your needs ahead of our own. This means we'll always be there when you need us, ready to provide <span class="italic">imaginative</span> and <span class="italic">resourceful</span> <span class="bold">solutions</span> to your financial and business growth challenges.</p>
 						<p><span class="underline">Including those challenges you didn't even know existed.</span></p>
-						<p>After all, any decent <?php echo $business_3; ?> can produce a good set of accounts. But very few have the skills to create a relationship where the client really sees their accountant as <span class="bold italic">a true asset</span> to their business.</p>
+						<p>After all, any decent <?php echo $business_3; ?> can produce a good set of accounts. But very few have the skills to create a relationship where the client really sees their <?php echo $business_3; ?> as <span class="bold italic">a true asset</span> to their business.</p>
 
 					</div>
 					<div class="col-md-6">
