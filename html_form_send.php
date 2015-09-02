@@ -52,7 +52,7 @@ if(isset($_POST['email'])) {
   if(strlen($error_message) > 0) {
     died($error_message);
   }
-    $email_message = "\nGreat News! A visitor to your Website That Sells has just completed the meeting request form.\n
+    $email_message = "\nGreat News! A visitor to your landing page has just completed the meeting request form.\n
 
 Details below...\n\n";
      
