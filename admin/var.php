@@ -3,6 +3,7 @@
 // --------------------------------------- CHECKLIST --------------------------------------
 // 
 // * Update Video (admin/snippets/video.php)
+// * Update Map Embed Code (admin/snippets/contact_page_locations.php)
 // * Update Company Logo (admin/img/logo.png)
 // * Update Team Images when arriving at Team Section (see below)
 // * Update Assoc Logos when arriving at Assoc Logo Section (see below)
@@ -36,6 +37,12 @@
 // Currency (e.g. $, £, €, AED, etc).
 
 $currency = "£";
+
+// Compliance & Business Variables (e.g. Accountants/Bookkeepers Compliance/Advisory etc.)
+
+$compliance = "compliance"; // (Can change to "advisory" for members that don't offer compliance services.)
+$tax_saving = "tax saving"; // (DO NOT LEAVE BLANK. If necessary, change "tax saving" to "time saving")
+$save_tax = "save tax &amp; "; // TURN BLANK If no tax saving.
 
 $business = "Accountants"; // start with capital letter (Can change to "Bookkeepers".)
 $business_2 = "accounting"; // lowercase (Can change to "bookkeeping".)

@@ -11,7 +11,15 @@
 					</div>
 					<div class="col-sm-6">
 						<div class="google-maps">
+
+							<!-- EMBED MAP CODE START -->
+
+							<!-- Replace the following line of code with the embed code from Google Maps -->
+							
 							<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4751.992755370819!2d-2.2284120000000005!3d53.450651!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487bb2241bf23f11%3A0x9c667df74ac2d39c!2sManchester+M14+5NJ%2C+UK!5e0!3m2!1sen!2suk!4v1435752958350" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+						
+							<!-- EMBED MAP CODE END -->
+
 						</div>
 					</div>
 					<div class="col-sm-6">
