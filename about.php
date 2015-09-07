@@ -21,91 +21,40 @@ include 'admin/language.php';
 	<!-- NAV START -->
 	<?php include ("assets/php/nav.php"); ?>
 	<!-- NAV END -->
-
-	<!-- #Header -->
-
-	<header id="header" class="bg-image" role="banner">
-		<div class="bg-image-overlay-video-version">
-			<div class="container">
-				
-				<div class="row">
-
-					<div class="col-sm-6">
-						<div class="header-text-video-version">
-							<h1>Watch This 2 Minute Video Before You Speak To Another <?php echo $business_3; ?>...</h1>
-							<h2>“How To Avoid Choosing The Wrong <?php echo $business_3; ?>”</h2>
-							<h3 class="sub-headline">The Simple Strategy Any Small Business Owner Can Use To Find The <?php echo $business_3; ?> That’s Right For Them</h3>
-							
-							<div class="video_container">
-								<?php include ("admin/snippets/video.php"); ?>
-							</div>
-							<h4><span>Call us now at <?php echo $phone; ?></span></h4>	
-						</div>
-					</div>
-
-					<img class="arrow" src="assets/images/arrow.png" alt="arrow">
-
-					<div class="col-sm-5 col-sm-offset-1">
-						<div class="wts-contact-wrapper">
-							<div class="form-heading">
-								<h2>Arrange Your Free Meeting Now</h2>
-								<p>Complete your details, click the ‘FREE Meeting’ button below and we’ll contact you to arrange the meeting.</p>
-							</div>
-							<!-- ENQUIRY FORM INCLUDE START -->
-							<?php include ("admin/snippets/forms.php"); ?>
-							<!-- ENQUIRY FORM INCLUDE END -->
-							<p class="form-info"><a href="policy.php">We Respect Your Email Privacy</a></p>
-						</div>
-					</div>
-
-				</div>
-
-			</div>
-		</div>
-	</header>
-
-	<!-- Header End -->
 	
 	<div id="main-content">
 
-		<div class="clearfix" style="height:40px;"></div>
+		<div class="clearfix" style="height:80px;"></div>
 
-		<!-- TEAM CONTAINER START -->
-
-		<?php include ("admin/snippets/team.php"); ?>
-		
-		<!-- TEAM CONTAINER END -->
-
-		<div class="clearfix" style="height:40px;"></div>
-
-
-		<!-- OUTRO COPY START -->
+		<!-- COPY START -->
 		<div class="container">
 		
 			<div class="content-heading-center" id="strong-partnership">
-				<h3><?php echo $business. ' in ' .$location; ?></h3>
-				<h2>Building A Strong Partnership With You</h2>
+				<h3 style="text-transform:capitalize; font-weight:bold">About Us</h3>
+				<br><br>
 				<div class="row">
-					<div class="col-md-6">
-						<p>As you'd expect, we're really good at delivering the <?php echo $business_2; ?> stuff - like <?php echo $compliance; ?>, <?php echo $tax_saving; ?> and profit improvement services ...and all in a very cost-effective way.</p>
-						<p>But where we really differ, is how we work <span class="italic">with</span> our clients and the strong emphasis we place on the <span class="bold">'relationship'</span>.</p>
-						<p>Unlike other accountants you may have met, we always put your needs ahead of our own. This means we'll always be there when you need us, ready to provide <span class="italic">imaginative</span> and <span class="italic">resourceful</span> <span class="bold">solutions</span> to your financial and business growth challenges.</p>
-						<p><span class="underline">Including those challenges you didn't even know existed.</span></p>
-						<p>After all, any decent <?php echo $business_3; ?> can produce a good set of accounts. But very few have the skills to create a relationship where the client really sees their <?php echo $business_3; ?> as <span class="bold italic">a true asset</span> to their business.</p>
-
-					</div>
-					<div class="col-md-6">
-						<p>And that's because a great <?php echo $business_3; ?> is one that does <span class="italic">so much more</span> than merely provide <?php echo $business_2; ?> services.</p>
-						<p><span class="bold">A great <?php echo $business_3; ?> is one that gives your business the advantage it needs and demands.</span></p>
-						<p>And that's where we <span class="italic">really</span> make the difference</p>
-						<p>It doesn't matter whether you're just starting out, have an established business or you've been round the block a few times. We know what's required to create a <span class="bold">win-win relationship</span> for you.</p>
-						<p>You'll even get a taste of this when you meet with us the very first time. So don't delay. <a href="#header">Complete the form now</a> or call us on <?php echo $phone; ?>. Thank you.</p>
+					<div class="col-md-12">
+						<p>As you will have already gathered, we’re not like other <?php echo $business_2; ?> firms. We care dearly about your financial performance <span style="text-decoration:underline; font-weight:bold">and</span> your growth and we achieve this by working hard to build a <span style="font-weight:bold">strong</span> (really strong) <span style="font-weight:bold">relationship</span> with you.</p>
+						<p>We have proven solutions for ALL the smallest and largest challenges small and medium-sized businesses face during their lifecycle (from start-up through to growth and maturity).</p>
+						<p>After all, any decent <?php echo $business_3; ?> can produce a good set of accounts. But very few have the skills to create a relationship where the <span style="font-weight:bold">client really sees their <?php echo $business_3; ?> as a true asset to their business.</span></p>
+						<p>And that’s because a great <?php echo $business_3; ?>, is one that does so much more than merely provide <?php echo $business_4; ?> services.</p>
+						<p>A great <?php echo $business_3; ?> is one that gives your business the advantage it needs and demands.</p>
+						<p>And that’s where we really make the difference.</p>
+						<p>It doesn’t matter whether you’re <span style="font-weight:bold">just starting out</span>, have an <span style="font-weight:bold">established business</span> or you’ve been <span style="font-weight:bold">round the block</span> a few times. We know what’s required to create a win-win relationship for you.</p>
+						<p>So… if you’re looking for an <?php echo $business_3; ?> who does things differently...</p>
+						<p><span style="text-decoration:underline; font-weight:bold">...puts you at the centre of their business…</span></p>
+						<p>…and really cares about building a <em>long-term relationship</em>, then we know you’re going to love taking time out of your day to meet with us.</p>
+						<p>So whether you’re starting a new business and want to hit the ground running, or have an existing one and are looking for a fresh and very successful approach to <?php echo $business_4; ?>, we urge you to get in touch now.</p>
+						<p>If you’re still undecided, watch <a href="index.php">this video first</a> and then enter your details in the form, or phone us direct on <?php echo $phone; ?>.</p>
 					</div>
 				</div>
 			</div>
 
 		</div>
-		<!-- OUTRO COPY END -->
+		<!-- COPY END -->
+
+		<div class="clearfix" style="height:40px;"></div>
+
 
 	</div>
 

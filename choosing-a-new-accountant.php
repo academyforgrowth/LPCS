@@ -21,56 +21,12 @@ include 'admin/language.php';
 	<!-- NAV START -->
 	<?php include ("assets/php/nav.php"); ?>
 	<!-- NAV END -->
-
-	<!-- #Header -->
-
-	<header id="header" class="bg-image" role="banner">
-		<div class="bg-image-overlay-video-version">
-			<div class="container">
-				
-				<div class="row">
-
-					<div class="col-sm-6">
-						<div class="header-text-video-version">
-							<h1>Watch This 2 Minute Video Before You Speak To Another <?php echo $business_3; ?>...</h1>
-							<h2>“How To Avoid Choosing The Wrong <?php echo $business_3; ?>”</h2>
-							<h3 class="sub-headline">The Simple Strategy Any Small Business Owner Can Use To Find The <?php echo $business_3; ?> That’s Right For Them</h3>
-							
-							<div class="video_container">
-								<?php include ("admin/snippets/video.php"); ?>
-							</div>
-							<h4><span>Call us now at <?php echo $phone; ?></span></h4>	
-						</div>
-					</div>
-
-					<img class="arrow" src="assets/images/arrow.png" alt="arrow">
-
-					<div class="col-sm-5 col-sm-offset-1">
-						<div class="wts-contact-wrapper">
-							<div class="form-heading">
-								<h2>Arrange Your Free Meeting Now</h2>
-								<p>Complete your details, click the ‘FREE Meeting’ button below and we’ll contact you to arrange the meeting.</p>
-							</div>
-							<!-- ENQUIRY FORM INCLUDE START -->
-							<?php include ("admin/snippets/forms.php"); ?>
-							<!-- ENQUIRY FORM INCLUDE END -->
-							<p class="form-info"><a href="policy.php">We Respect Your Email Privacy</a></p>
-						</div>
-					</div>
-
-				</div>
-
-			</div>
-		</div>
-	</header>
-
-	<!-- Header End -->
 	
 	<div id="main-content">
 
-		<div class="clearfix" style="height:40px;"></div>
+		<div class="clearfix" style="height:80px;"></div>
 
-		<!-- SERVICES COPY START -->
+		<!-- COPY START -->
 		<div class="container">
 		
 			<div class="content-heading-center" id="strong-partnership">
@@ -96,14 +52,14 @@ include 'admin/language.php';
 						<p style="font-weight:bold">Our guarantee is…</p>
 						<p>If at any time during our relationship you think we have failed to live up to these high standards, then YOU decide the fee – it’s as simple as that. YOU’RE in full control. No risk. No surprises.</p>
 						<p>So if you want an accountant who can play an active role to ensure you run a better, more efficient and effective business… then we’d like to help.</p>
-						<p>We’d be delighted to put some time aside to meet with you. Just call us on <?php echo $phone; ?> or <a href="choosing-a-new-accountant.php">complete the form here</a> and we can arrange your <span style="font-weight:bold">FREE no obligation meeting</span> at YOUR convenience.</p>
+						<p>We’d be delighted to put some time aside to meet with you. Just call us on <?php echo $phone; ?> or <a href="index.php">complete the form here</a> and we can arrange your <span style="font-weight:bold">FREE no obligation meeting</span> at YOUR convenience.</p>
 						<p>Thank you.</p>
 					</div>
 				</div>
 			</div>
 
 		</div>
-		<!-- SERVICES COPY END -->
+		<!-- COPY END -->
 		
 
 		<div class="clearfix" style="height:40px;"></div>

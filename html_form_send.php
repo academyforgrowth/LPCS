@@ -173,6 +173,10 @@ include 'admin/language.php';
   <!-- SCRIPTS START -->
   <?php include ("assets/php/scripts.php"); ?>
   <!-- SCRIPTS END -->
+
+  <!-- Conversion Tracking Embed Code Start -->
+  <?php include ("admin/snippets/conversion-tracking.php"); ?>
+  <!-- Conversion Tracking Embed Code End -->
   
 
 </body>

@@ -23,6 +23,4 @@
     <?php include ("admin/snippets/analytics.php"); ?>
     <!-- Google Analytics Embed Code End -->
 
-    <!-- Conversion Tracking Embed Code Start -->
-    <?php include ("admin/snippets/conversion-tracking.php"); ?>
-    <!-- Conversion Tracking Embed Code End -->
+    

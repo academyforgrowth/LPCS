@@ -47,6 +47,7 @@ $save_tax = "save tax &amp; "; // TURN BLANK If no tax saving.
 $business = "Accountants"; // start with capital letter (Can change to "Bookkeepers".)
 $business_2 = "accounting"; // lowercase (Can change to "bookkeeping".)
 $business_3 = "accountant"; // lowercase (Can change to "bookkeeper".)
+$business_4 = "accountancy"; // lowercase (Can change to "bookkeeping".)
 
 
 /******************************
@@ -99,9 +100,9 @@ $team_member6_title = "Job Title";
  ** 3. =Services
  ******************************/
 
-$time_saving_services = ["Personal Tax Returns", "Income Statements", "Company Tax Returns", "Financial Statements", "Tax Planning"];
+$time_saving_services = ["Full Annual Accounts Management Service", "Full Annual Tax Management Service"];
 
-$value_added_services = ["Expenses Management", "Budgeting", "Client Invoicing", "Accounts Receivable Service", "Business Management Consulting"];
+$value_added_services = ["Full Business Support Services", "Profit Maximisation Services", "Tax Minimisation Services", "Wealth Creation &amp; Management Services"];
 
 /******************************
  ** 4. =Assocation Logo Links
