@@ -27,6 +27,15 @@ include 'admin/language.php';
 	<header id="header" class="bg-image" role="banner" style="margin-bottom:0px">
 		<div class="bg-image-overlay-video-version">
 			<div class="container">
+				<div class="row">
+					<div class="col-sm-6">
+					</div>
+					<div class="col-sm-6">
+						<h4 style="color:#FFFFFF; text-align:right; font-size: 24px"><?php echo $phone; ?></h4>
+					</div>
+				</div>
+			</div>
+			<div class="container">
 				
 				<div class="row">
 
