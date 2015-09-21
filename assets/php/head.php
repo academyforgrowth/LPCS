@@ -23,4 +23,8 @@
     <?php include ("admin/snippets/analytics.php"); ?>
     <!-- Google Analytics Embed Code End -->
 
+    <!-- Call Tracking Metrics Code Start -->
+    <?php include ("admin/snippets/call-tracking.php"); ?>
+    <!-- Call Tracking Metrics Code End -->
+
     
